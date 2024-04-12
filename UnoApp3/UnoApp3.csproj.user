@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Page Update="Presentation\NavigationRootPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AppResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\SecondPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\Shell.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>$(DotNetVersion)</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnoApp3.Wasm\UnoApp3.Wasm.csproj" />
+    <ProjectReference Include="..\UnoApp3.DataContracts\UnoApp3.DataContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Uno.Wasm.Bootstrap.Server" />
+  </ItemGroup>
+
+</Project>
